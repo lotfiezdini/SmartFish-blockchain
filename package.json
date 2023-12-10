@@ -1,0 +1,28 @@
+{
+  "name": "fishsmartcontract",
+  "version": "1.0.0",
+  "description": "blockchain smartfish powered by ethereum",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "dev": "lite-server",
+    "test": "echo \"Error: no test specified\" && sexit 1"
+  },
+  "devDependencies": {
+    "bootstrap": "^4.6.2",
+    "chai": "^4.1.2",
+    "chai-as-promised": "^7.1.1",
+    "chai-bignumber": "^2.0.2",
+    "ganache-cli": "6.12.2",
+    "lite-server": "^2.3.0",
+    "nodemon": "^3.0.1",
+    "truffle": "^5.11.0",
+    "truffle-contract": "^4.0.2",
+    "web3": "^4.0.3"
+},
+  "author": "lotfi",
+  "license": "MIT"
+}
+
